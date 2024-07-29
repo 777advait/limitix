@@ -1,0 +1,80 @@
+{
+  "name": "limitix",
+  "version": "1.0.0",
+  "description": "Limitix is a powerful and flexible in-memory rate limiting library designed for single-server Next.js applications. ",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "rate_limiting",
+    "rate_limit",
+    "rate_limiter",
+    "rate_limit_api",
+    "rate_limiter_api",
+    "ratelimit",
+    "ratelimiting",
+    "rate-limiting",
+    "rate-limit",
+    "rate-limiter",
+    "nextjs",
+    "next",
+    "next.js",
+    "next-js",
+    "node",
+    "node.js",
+    "nodejs",
+    "api",
+    "api_rate_limit",
+    "api_rate_limiting",
+    "api_ratelimiting",
+    "api-rate-limit",
+    "api-rate-limiting",
+    "api-ratelimit",
+    "api-ratelimiting",
+    "limit",
+    "limiting",
+    "limiter",
+    "rate"
+  ],
+  "author": "Advait <advait.nsj@proton.me>",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "package.json"
+  ],
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    },
+    "./next": {
+      "require": "./dist/next/index.js",
+      "import": "./dist/next/index.mjs",
+      "types": "./dist/next/index.d.ts"
+    },
+    "./next/*": {
+      "require": "./dist/next/*.js",
+      "import": "./dist/next/*.mjs",
+      "types": "./dist/next/*.d.ts"
+    }
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "devDependencies": {
+    "tsup": "^8.2.3",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "next": "^14.2.5"
+  },
+  "repository": {
+    "url": "https://github.com/777advait/limitix"
+  },
+  "bugs": {
+    "url": "https://github.com/777advait/limitix/issues"
+  },
+  "homepage": "https://github.com/777advait/limitix#readme",
+  "readme": "README.md"
+}
