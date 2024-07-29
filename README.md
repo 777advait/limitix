@@ -8,8 +8,6 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Configuration](#configuration)
-- [API](#api)
-- [License](#license)
 
 ## Features
 
@@ -58,7 +56,9 @@ export async function GET(req: NextApiRequest, res: NextApiResponse) {
 
 ### In middleware
 
-> This is how im using it in my side-project indielettr[https://indielettr.com]
+> This is how im using it in my side-project [indielettr](https://indielettr.com)
+
+<br />
 
 ```typescript
 import { auth } from "@/server/auth";
@@ -111,5 +111,4 @@ export interface RateLimitConfig {
    */
   timeFrame: number;
 }
-
 ```
