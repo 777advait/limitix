@@ -1,6 +1,6 @@
 {
   "name": "limitix",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Limitix is a powerful and flexible in-memory rate limiting library designed for single-server Next.js applications. ",
   "scripts": {
     "build": "tsup"
@@ -67,7 +67,7 @@
     "typescript": "^5.5.4"
   },
   "dependencies": {
-    "next": "^14.2.5"
+    "next": "^14.1.0"
   },
   "repository": {
     "url": "https://github.com/777advait/limitix"
